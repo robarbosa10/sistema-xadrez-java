@@ -1,13 +1,14 @@
 package application;
 
 import tabuleiro.Posicao;
+import tabuleiro.TabuleiroClass;
 
 public class Program {
 
 	public static void main(String[] args) {
-		Posicao p1 = new Posicao(3, 5);
+		TabuleiroClass tabuleiro = new TabuleiroClass(8, 8);
 		
-		System.out.println(p1);
+		
 
 	}
 
